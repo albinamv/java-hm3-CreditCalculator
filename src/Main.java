@@ -4,13 +4,13 @@ public class Main {
 
         System.out.println("Ежемесячный платёж:");
 
-        int oneYearPayment = service.calculate(1_000_000,1,9.99);
+        int oneYearPayment = service.calculate(1_000_000, 1, 9.99);
         System.out.println("на 1 год — " + oneYearPayment + " руб.");
 
-        int twoYearPayment = service.calculate(1_000_000,2,9.99);
+        int twoYearPayment = service.calculate(1_000_000, 2, 9.99);
         System.out.println("на 2 года — " + twoYearPayment + " руб.");
 
-        int threeYearPayment = service.calculate(1_000_000,3,9.99);
+        int threeYearPayment = service.calculate(1_000_000, 3, 9.99);
         System.out.println("на 3 года — " + threeYearPayment + " руб.");
     }
 }
